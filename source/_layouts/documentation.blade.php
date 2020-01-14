@@ -12,7 +12,7 @@ $page->siteName = 'Livewire Documentation';
 @yield('header')
 
 <section class="container mx-auto px-6 md:px-8 py-12 content">
-    <div class="flex flex-col-reverse md:flex-row">
+    <div class="flex flex-col md:flex-row">
         <nav id="js-nav-menu" class="nav-menu hidden lg:block">
             @include('_nav.menu', ['items' => $page->navigation])
         </nav>
